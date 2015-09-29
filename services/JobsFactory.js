@@ -3,7 +3,7 @@ moriartysDen.factory('JobsFactory', function JobsFactory() {
   factory.jobs = [
     {
       jobTitle: "Bank Heist",
-      jobDescription: "Steal a bunch of money from the bank",
+      jobDescription: "Steal a bunch of money from the bank and keep it for ourselves",
       jobId: 1,
       jobCategory: "Heist",
       jobImg: "css/img/mrcrabs.gif"

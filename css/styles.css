@@ -78,10 +78,16 @@ body {
 }
 
 .job {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: auto;
   margin: 20px;
   padding: 5px;
+  text-align: center;
+  border: 1px gray solid;
+}
+
+.job-hover {
+  background-color: lightgray;
 }
 
 .job-img {

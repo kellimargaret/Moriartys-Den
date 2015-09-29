@@ -18,3 +18,14 @@ moriartysDen.directive("buttonHover", function() {
     });
   }
 });
+
+moriartysDen.directive("jobHover", function() {
+  return function(scope, element) {
+    element.bind("mouseenter", function() {
+      element.toggleClass("job-hover");
+    });
+    element.bind("mouseleave", function() {
+      element.toggleClass("job-hover");
+    });
+  }
+});
