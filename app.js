@@ -9,7 +9,8 @@ moriartysDen.config(function($stateProvider) {
         controller: 'HeadersCtrl'
       },
       'body': {
-        templateUrl: "partials/home.html"
+        templateUrl: "partials/home.html",
+        controller: 'JobsCtrl'
       }
     }
   });

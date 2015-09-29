@@ -76,3 +76,16 @@ body {
 .hover-button {
   background-color: #87909c;
 }
+
+.job {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.job-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}

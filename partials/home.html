@@ -4,7 +4,19 @@
     <p class="hero-desc">Every fairytale needs a good old-fashioned villain.</p>
     <div class="hero-ctaWrapper">
       <a href="#" button-hover class="btn btn-plain btn-xxlarge hero-cta">Recruit</a>
-      <a href="#" button-hover class="btn btn-plain btn-xxlarge hero-cta">Plot</a>      
+      <a href="#" button-hover class="btn btn-plain btn-xxlarge hero-cta">Plot</a>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div ng-repeat="item in jobs" class="jobs">
+    <div class="col-xs-2">
+      <div class="job" >
+        <h3>{{item.jobTitle}}</h3>
+        <p>{{item.jobDescription}}</p>
+        <img class="job-img" src="{{item.jobImg}}">
+      </div>
     </div>
   </div>
 </div>
