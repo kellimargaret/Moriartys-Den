@@ -12,6 +12,7 @@ body {
   padding-right: 20px;
   padding-bottom: 0;
   font-family: 'Josefin Slab', serif;
+  background-color: white;
 }
 
 .logo {
@@ -94,4 +95,22 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 100%;
+}
+
+.heroSlider-slides {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  list-style: none;
+  text-align: right;
+  margin: 22px auto 0;
+  padding: 0;
+  position: relative;
+}
+
+.heroSlider-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
 }
