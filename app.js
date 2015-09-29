@@ -13,4 +13,17 @@ moriartysDen.config(function($stateProvider) {
       }
     }
   });
+
+  $stateProvider.state('plot', {
+    url: "/plot",
+    views: {
+      'header': {
+        templateUrl: 'partials/header.html',
+        controller: 'HeadersCtrl'
+      },
+      'body': {
+        templateUrl: "partials/plot.html"
+      }
+    }
+  });
 });

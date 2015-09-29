@@ -2,16 +2,16 @@
   <a class="navbar-brand" href="#">Moriarty's Den</a>
   <ul class="nav navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" ui-sref="home" current-page current-path="currentPath" match-path="" current-page="currentPath === '/' || currentPath === ''">Home</a>
+      <a class="nav-link" ui-sref="home" match-path="" match-path2="/" current-page={{currentPath}} current-page-check>Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Login</a>
+      <a class="nav-link" ui-sref="login" match-path="/login" current-page={{currentPath}} current-page-check>Login</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Sign Up</a>
+      <a class="nav-link" ui-sref="signup" match-path="/signup" current-page={{currentPath}} current-page-check>Sign Up</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Plot a Crime</a>
+      <a class="nav-link" ui-sref="plot" match-path="/plot" current-page={{currentPath}} current-page-check>Plot a Crime</a>
     </li>
   </ul>
 </nav>
